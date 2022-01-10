@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="#ffffff">
 
@@ -9,7 +10,7 @@
         android:id="@+id/userInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1+2+3+4"
+        tools:text="1+2+3+4"
         android:textSize="30sp"
         android:textAlignment="textEnd"
         android:layout_marginTop="2dp" />
@@ -18,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
-        android:text="10"
+        tools:text="10"
         android:textSize="50dp"
         />
 
